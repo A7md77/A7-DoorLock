@@ -1,0 +1,55 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap');
+
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.textInfo {
+    position: absolute;
+    top: 50%;
+    float: left;
+    color: white;
+}
+
+#doorlock-container {
+    position: absolute;
+    flex-wrap: wrap;
+    top: 45vh;
+    padding: 0.6em;
+    width: fit-content;
+    color: white;
+    border-radius: 0.3em;
+    left: 0.5%;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #c580fe, 0 0 40px #c580fe, 0 0 50px #c580fe, 0 0 60px #c580fe, 0 0 70px #c580fe;
+}
+
+.slide_in {
+    animation: slide-in 3s forwards;
+}
+
+.slide_out {
+    animation: slide-out 3s forwards;
+}
+
+
+@keyframes slide-in {
+    0% {
+        opacity: 0%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes slide-out {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
